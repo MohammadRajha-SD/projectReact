@@ -1,0 +1,56 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f28ab2;
+}
+#root{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.App
+{
+  width: 350px;
+  padding: 20px;
+  background-color: #efefef;
+  border-radius: 10px;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+}
+.peoplBtn
+{
+  background-color: #f28ab2;
+  color: #efefef;
+  width: 100%; 
+  padding: 10px;
+  font-size: 18px; 
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.person
+{
+  display: flex;
+  margin: 10px 0;
+  height: 60px;
+  justify-content: center;
+  align-items: center;
+}
+.BoxData .NameAge {
+  display: block;
+  padding-left: 10px;
+  width: 250px;
+  user-select: none;
+}
+img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.peoplBtn{
+  margin-top: 10px;
+}
